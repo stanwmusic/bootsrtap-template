@@ -10,7 +10,7 @@
 
 /* font-family: 'Open Sans Condensed', sans-serif; */
 body {
-  background-color: #5A5247;
+  background-color: #000;
   background-image: url("../assets/images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -33,7 +33,7 @@ body {
   display: flex; }
   .footer__title {
     font-family: 'Muller Narrow', 'Intro Cond', 'Open Sans Condensed', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.8);
     margin: auto; }
 
