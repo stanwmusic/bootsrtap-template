@@ -1,0 +1,17 @@
+.biography{
+	font-family:$text-font;
+	color:$text-color;
+	background:$background-text-color;
+	padding:10px 20px;
+	&__paragraph{
+		font-size:16px;
+	}
+	&__link{
+		color:$text-color;
+	}
+	&__icon{
+		height:25px;
+		width:25px;
+		margin-left:2px;
+	}
+}

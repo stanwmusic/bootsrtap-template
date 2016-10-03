@@ -8,7 +8,6 @@
   font-family: 'Muller Narrow';
   src: url("../assets/fonts/mullernarrow/MullerNarrow-Light.otf"); }
 
-/* font-family: 'Open Sans Condensed', sans-serif; */
 body {
   background-color: #000;
   background-image: url("../assets/images/background.jpg");
@@ -17,28 +16,38 @@ body {
   background-size: cover; }
 
 .header__title {
-  font-family: 'Intro Cond', 'Muller Narrow', 'Open Sans Condensed', sans-serif;
+  font-family: "Intro Cond", "Muller Narrow", "Open Sans Condensed", sans-serif;
   font-size: 30px;
   color: #fff;
   text-transform: uppercase;
   margin-top: 15px; }
 
+.main-content {
+  margin-left: 40px;
+  margin-right: 40px; }
+
 .footer {
   background: rgba(0, 0, 0, 0.6);
-  height: 60px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: flex; }
+  height: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 60px; }
+  .footer--index-page {
+    height: 60px;
+    padding-top: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0; }
   .footer__title {
-    font-family: 'Muller Narrow', 'Intro Cond', 'Open Sans Condensed', sans-serif;
+    font-family: "Muller Narrow", "Intro Cond", "Open Sans Condensed", sans-serif;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.8);
-    margin: auto; }
+    color: #fff; }
 
 .navbar {
-  font-family: 'Intro Cond', 'Muller Narrow', 'Open Sans Condensed', sans-serif;
+  font-family: "Intro Cond", "Muller Narrow", "Open Sans Condensed", sans-serif;
   font-size: 20px;
   text-transform: uppercase; }
   .navbar__item {
@@ -48,3 +57,19 @@ body {
     .navbar__link:hover {
       text-decoration: none;
       color: #fff; }
+    .navbar__link--active {
+      color: #fff; }
+
+.biography {
+  font-family: "Muller Narrow", "Intro Cond", "Open Sans Condensed", sans-serif;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px; }
+  .biography__paragraph {
+    font-size: 16px; }
+  .biography__link {
+    color: #fff; }
+  .biography__icon {
+    height: 25px;
+    width: 25px;
+    margin-left: 2px; }

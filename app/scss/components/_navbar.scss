@@ -1,5 +1,5 @@
 .navbar{
-	font-family:'Intro Cond', 'Muller Narrow', 'Open Sans Condensed', sans-serif;
+	font-family:$title-font;
 	font-size:20px;
 	text-transform:uppercase;
 	&__item{
@@ -9,6 +9,9 @@
 		color:$navigation-text-color;
 		&:hover{
 			text-decoration:none;
+			color:$text-color;
+		}
+		&--active{
 			color:$text-color;
 		}
 	}
