@@ -1,0 +1,15 @@
+.navbar{
+	font-family:'Intro Cond', 'Muller Narrow', 'Open Sans Condensed', sans-serif;
+	font-size:20px;
+	text-transform:uppercase;
+	&__item{
+		margin-right:10px;
+	}
+	&__link{
+		color:$navigation-text-color;
+		&:hover{
+			text-decoration:none;
+			color:$text-color;
+		}
+	}
+}

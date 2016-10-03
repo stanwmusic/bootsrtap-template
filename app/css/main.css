@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Intro Cond';
+  src: local("Intro Cond Light Free"), local("IntroCondLightFree"), url("../assets/fonts/introcondensed/introcondlightfree.woff2") format("woff2"), url("../assets/fonts/introcondensed/introcondlightfree.woff") format("woff"), url("../assets/fonts/introcondensed/introcondlightfree.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Muller Narrow';
+  src: url("../assets/fonts/mullernarrow/MullerNarrow-Light.otf"); }
+
+/* font-family: 'Open Sans Condensed', sans-serif; */
+body {
+  background-color: #5A5247;
+  background-image: url("../assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.header__title {
+  font-family: 'Intro Cond', 'Muller Narrow', 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 15px; }
+
+.footer {
+  background: rgba(0, 0, 0, 0.6);
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex; }
+  .footer__title {
+    font-family: 'Muller Narrow', 'Intro Cond', 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: auto; }
+
+.navbar {
+  font-family: 'Intro Cond', 'Muller Narrow', 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase; }
+  .navbar__item {
+    margin-right: 10px; }
+  .navbar__link {
+    color: #ffebcd; }
+    .navbar__link:hover {
+      text-decoration: none;
+      color: #fff; }

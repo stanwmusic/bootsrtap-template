@@ -1,0 +1,9 @@
+.header{
+	&__title{
+		font-family:'Intro Cond', 'Muller Narrow', 'Open Sans Condensed', sans-serif;
+		font-size:30px;
+		color:$text-color;
+		text-transform:uppercase;
+		margin-top:15px;
+	}
+}
