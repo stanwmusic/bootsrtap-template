@@ -1,0 +1,11 @@
+.video{
+	background:$background-text-color;
+	padding:20px;
+	&__container{
+		max-width:490px;
+		margin:0 auto;
+	}
+	&__responsive-container{
+		margin-bottom:30px;
+	}
+}

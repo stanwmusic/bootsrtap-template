@@ -49,7 +49,7 @@ body {
     .navbar__link:hover {
       text-decoration: none;
       color: #fff; }
-    .navbar__link--active {
+    .navbar__link--current {
       color: #fff; }
 
 .biography {
@@ -65,3 +65,31 @@ body {
     height: 25px;
     width: 25px;
     margin-left: 2px; }
+
+.discography {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 100px; }
+  .discography__column {
+    position: relative; }
+  .discography__layer {
+    font-family: "Muller Narrow", "Intro Cond", "Open Sans Condensed", sans-serif;
+    color: #fff;
+    font-size: 26px;
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    visibility: hidden; }
+  .discography__album {
+    margin-bottom: 10%;
+    border: 1px solid #fff; }
+
+.video {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px; }
+  .video__container {
+    max-width: 490px;
+    margin: 0 auto; }
+  .video__responsive-container {
+    margin-bottom: 30px; }

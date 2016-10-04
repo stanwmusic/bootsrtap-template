@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$(".discography__album").hover(function(){
+		$(this).css("opacity","0.6");
+		$(this).next().css("visibility","visible");
+	},
+	function(){
+		$(this).css("opacity","1");
+		$(this).next().css("visibility","hidden");
+	});
+});
